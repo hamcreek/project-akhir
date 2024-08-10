@@ -1,0 +1,15 @@
+.nav-menu{
+    padding: 15px 0px;
+
+.right-menu{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+
+    a{
+        color: #666;
+        text-decoration: none;
+    }
+  }  
+}
