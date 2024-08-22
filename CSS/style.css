@@ -16,7 +16,7 @@
 .hero-section{
     padding: 70px 0px;
     .hero-caption{
-        height: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -47,6 +47,7 @@
     }
     .hero-usp{
         display: flex;
+    
     }
 }
 
@@ -105,11 +106,11 @@
 
 }
 
-.speciialities-slider{
+.specialities-slider{
     padding: 40px 0px;
 }
 .content4{
-    background-image: url("../assets/bg.svg");
+    background-image: url("../assets/bg.png");
     background-size: cover;
 }
 
