@@ -1,101 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yellow Kitchen</title>
+    <title>Project Akhir</title>
 
-    <!------bootstrap css------>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-    <!------custom css------>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootsraps css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- slider -->
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <!-- custom css -->
     <link href="css/style.css" rel="stylesheet" />
 </head>
+
 <body>
+    <!-- navbar --> 
+        <div class="nav-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="logo-top">
+                            <a href="#"><img src="Assets/Logo.png" /></a>
+                        </div>
+                    </div>
     
-    <div class="nav-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="logo-top">
-                        <a href="#"><img src="Assets/Logo.png" /></a>
+                    <div class="col-6">
+                        <div class="right-menu">
+                            <a href=""><img src="Assets/person.png">Log In</a>
+                            <a href=""><img src="Assets/cart.png">0</a>
+                            <a href=""><h3 class="bi bi-list"></h3></a>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!----End NavMenu---->
 
-                <div class="col-6">
-                    <div class="right-menu">
-                        <a href=""><img src="Assets/person.png">Log In</a>
-                        <a href=""><img src="Assets/cart.png">0</a>
-                        <a href=""><h3 class="bi bi-list"></h3></a>
+    <!-- Hero-section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-4">
+                    <div class="hero-caption">
+                        <h1> Your Food court at home</h1>
+                        <div class="hero-btn">
+                            <button type="button" class="btn btn-outline"><b>Delivery</b><br>order in</button>
+                            <button type="button" class="btn btn-outline"><b>Take Out</b><br>Grab and Go</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-8 p-4">
+                    <div class="hero-image">
+                        <img src="assets/hero-piring.png" style="
+                        width: 100%;
+                        object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-usp">
+                <div class="row">
+                    <img class="col-md-3 col-sm-3 col-xs-3" src="assets/delivery.png">
+                    <img class="col-md-3 col-sm-3 col-xs-3" src="assets/paris.png">
+                    <img class="col-md-3 col-sm-3 col-xs-3" src="assets/time-eat.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- restaurant slider -->
+    <div class="restaurant-slider">
+        <div class="container">
+            <h2>Restaurants</h2>
+            <section class="splide" id="restaurant-slider" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list text-center gap-4 p-3">
+                        <li class="splide__slide"><img src="assets/restaurant1.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant-1.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant-2.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant-3.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant-2.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant-3.png" /></li>
+                        <li class="splide__slide"><img src="assets/restaurant.png" /></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- find rearest -->
+
+    <div class="find-rearest">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-7 p-4">
+                        <div class="find-rearest-content">
+                            <h1><b>Your nearest restaurants</b></h1>
+                            <p>Each kitchen works with its own delivery area to deliver food to you as soon as
+                                possible
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 p-4">
+                        <div class="input-location">
+                            <input type="url" class="form-control" placeholder="Enter delivery address">
+                            <button class="btn btn-send" type="submit">Send</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!----End NavMenu---->
 
-    <!---Hero Section---->
-        <div class="hero-section">
-
-
+    <!-- Specialities -->
+    <div class="speciialities-slider">
+        <div class="container">
+            <h2>Specialiities</h2>
+            <section class="splide" id="specialist-slider" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list text-center gap-4 p-5">
+                        <li class="splide__slide"><img src="assets/specialities1.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities2.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities3.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities4.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities5.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities6.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities7.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities8.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities1.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities2.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities3.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities4.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities5.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities6.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities7.png" /></li>
+                        <li class="splide__slide"><img src="assets/specialities8.png" /></li>
+                    </ul>
+                </div>
+            </section>
         </div>
+    </div>
 
-    <!---End Hero Section--->
+    <!-- usp -->
 
-    <!---Carousel Section--->
-        <div class="Carousel">
-
-
+    <div class="content4">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-md-3 mb-5 p-5 text-center">
+                        <img src="assets/kitchen.png">
+                    </div>
+                    <div class="col-md-3 mb-5 p-5 text-center">
+                        <img src="assets/specialist.png">
+                    </div>
+                    <div class="col-md-3 mb-5 p-5 text-center">
+                        <img src="assets/restaurant.png">
+                    </div>
+                    <div class="col-md-3 mb-5 p-5 text-center">
+                        <img src="assets/transport.png">
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-    <!---End Carousel Section--->
-
-        <!---3 Section---->
-        <div class="hero-section">
-
-
+    <div class="section-maps ">
+        <div class="container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31733.22918457228!2d106.62086411083983!3d-6.177098099999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f930a7d75c75%3A0x266ba3d4bb00facb!2sKopi%20Kenangan%20-%20Taman%20Royal%20Cipondoh!5e0!3m2!1sen!2sid!4v1724321940581!5m2!1sen!2sid"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+    </div>
 
-    <!---End 3 Section--->
-
-    <!---4 Section---->
-        <div class="hero-section">
-
-
+    <div class="instagram-content">
+        <div class="container">
+            <h2><b>#YellowKitchens</b> in instagram</h2>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 mb-5 text-center ">
+                        <img src="assets/Rectangle 10.png" style="
+                        width: 100%;
+                        object-fit: contain;">
+                    </div>
+                    <div class="col-md-3 mb-5 text-center ">
+                        <img src="assets/Rectangle 11.png" style="
+                        width: 100%;
+                        object-fit: contain;">
+                    </div>
+                    <div class="col-md-3 mb-5 text-center ">
+                        <img src="assets/Rectangle 12.png" style="
+                        width: 100%;
+                        object-fit: contain;">
+                    </div>
+                    <div class="col-md-3 mb-5 text-center ">
+                        <img src="assets/Rectangle 13.png" style="
+                        width: 100%;
+                        object-fit: contain;">
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-    <!---End 4 Section--->
+    <footer class="footer">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
 
-    <!---5 Section---->
-        <div class="hero-section">
+                <div class="col-md-4 mb-5 col-lg-3">
+                    <img src="assets/Logo2.png">
+                    <hr class="line-footer">
+                    <div class="app-store">
+                        <img src="assets/app-img1-1.png" alt="">
+                        <img src="assets/app-img2-1.png" alt="">
+                    </div>
 
+                </div>
 
+                <div class="col-md-4 mb-5 col-lg-3">
+                    <h5>About us</h5>
+                    <ul class="list-unstyled">
+                        <li class="m-2"><a href="#">Concept</a></li>
+                        <li class="m-2"><a href="#">Franchise</a></li>
+                        <li class="m-2"><a href="#">Business</a></li>
+                        <li class="m-2"><a href="#">Restaurant signup</a></li>
+                        <li class="m-2"><a href="#">For Investors</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-5 col-lg-3">
+                    <h5>Get help</h5>
+                    <ul class="list-unstyled">
+                        <li class="m-2"><a href="#">Read FAQs</a></li>
+                        <li class="m-2"><a href="#">Restaurants</a></li>
+                        <li class="m-2"><a href="#">Specialities</a></li>
+                        <li class="m-2"><a href="#">Sign up to deliver</a></li>
+                        <li class="m-2"><a href="#">English</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-5 col-lg-3">
+                    <h5>Contact us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Yellow kitchen Paris 11</a></li>
+                        <li class="mb-2"><a href="#">69 avenue de la Republique 75011 Paris</a></li>
+                        <li class="mb-2"><a href="#">0800 111 126</a></li>
+                        <li class="mb-2"><a href="#">contact@yellowkitchens.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between ">
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+                </ul>
+                <ul class="list-unstyled d-flex gap-4">
+                    <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                    <li class="mb-2"><a href="#">Terms</a></li>
+                    <p>© 2020 Yellow kitchen</p>
+                </ul>
+            </div>
         </div>
-
-    <!---End 5 Section--->
-
-    <!---6 Section---->
-        <div class="hero-section">
-
-
-        </div>
-
-    <!---End 6 Section--->
+    </footer>
 
 
 
-    <!-----Boostrap JS-------->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-    <!-----Jquery-->
+
+    <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
-    <!----Custom Jss-->
-    <script src="Javascript/index.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
 </body>
+
 </html>
