@@ -25,7 +25,7 @@ $('#btnToggle').click(function(){
     }
   })
 
-  new Splide( '#specialist-slider', {
+  new Splide( 'specialist-slider', {
     type: 'loop',
     perPage: 8,
     autoplay: false,
